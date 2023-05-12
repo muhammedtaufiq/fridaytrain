@@ -1,5 +1,5 @@
-# CHANGE-TO-YOURNAME-aws-node-http-api-project
-service: aws-node-http-api-project
+# CHANGE-TO-YOURNAME-aws-node-animated-fridaytrain
+service: aws-node-animated-fridaytrain
 frameworkVersion: '3'
 
 provider:
