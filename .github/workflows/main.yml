@@ -34,8 +34,7 @@ jobs:
   deploy:
     name: deploy
     runs-on: ubuntu-latest
-    needs: install-dependencies 
-    needs: scan-dependencies
+    needs: [install-dependencies,  scan-dependencies]
     strategy:
       matrix:
         node-version: [18.x]
